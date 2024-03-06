@@ -60,17 +60,12 @@ This web application displays lists of board games and their reviews. While anyo
 4. apt install maven -y
 5. git clone https://github.com/Krishpluto/BoardgameListingWebApp.git
 6. cd BoardgameListingWebApp/
-7. # mvn clean
-   Removes the tagret folder inside the project if any 
-# mvn validate
-This will validate the files and folders in side the project
-# mvn compile
-This will compile the project 
-# mvn test
-This will run the test cases 
-8.# mvn pacakge
-This will create a jar or war file inside the target folder
-9.Now, go inside the “target” folder and execute the jar file “database_service_project-0.0.1.jar”.
+7. mvn clean (Removes the tagret folder inside the project if any )
+8. mvn validate  (This will validate the files and folders in side the project)
+9. mvn compile   (This will compile the project )
+10. mvn test     (This will run the test cases )
+11. mvn package  (This will create a jar or war file inside the target folder)
+12. Now, go inside the “target” folder and execute the jar file “database_service_project-0.0.1.jar”.
 #cd target/
 #java -jar database_service_project-0.0.1.jar
 
@@ -78,6 +73,4 @@ Now go to the browser to access the application by entering “public ip address
 
 The application will be running in port 8080.
 
-
-
-
+  

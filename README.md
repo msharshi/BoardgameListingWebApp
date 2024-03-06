@@ -51,3 +51,33 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+
+## Building a Java Project Using Maven on Ubuntu
+
+1. sudo -i
+2. apt update
+3. apt install default-java
+4. apt install maven -y
+5. git clone https://github.com/Krishpluto/BoardgameListingWebApp.git
+6. cd BoardgameListingWebApp/
+7. # mvn clean
+   Removes the tagret folder inside the project if any 
+# mvn validate
+This will validate the files and folders in side the project
+# mvn compile
+This will compile the project 
+# mvn test
+This will run the test cases 
+8.# mvn pacakge
+This will create a jar or war file inside the target folder
+9.Now, go inside the “target” folder and execute the jar file “database_service_project-0.0.1.jar”.
+#cd target/
+#java -jar database_service_project-0.0.1.jar
+
+Now go to the browser to access the application by entering “public ip address of the instance:8080” (eg: 13.23.45.67:8080), the site should be accessible.
+
+The application will be running in port 8080.
+
+
+
+
